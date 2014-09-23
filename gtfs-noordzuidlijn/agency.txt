@@ -1,2 +1,2 @@
 agency_id,agency_name,agency_url,agency_timezone,agency_lang
-NZL,Noord/Zuidlijn,http://www.gvb.nl,Europe/Amsterdam,nl
+GVB,Noord/Zuidlijn,http://www.gvb.nl,Europe/Amsterdam,nl

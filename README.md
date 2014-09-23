@@ -56,6 +56,11 @@ OV-bedrijven in Amsterdam:
 - EBS (EBS)
 - NS (IFF:NS)
 
+## OpenTripPlanner
+
+Download the latest OpenTripPlanner jar from:
+http://dev.opentripplanner.org/jars/otp-latest-master.jar
+
 Build graph:
 
     java -Xmx4G -jar otp-latest-master.jar --build ../data
