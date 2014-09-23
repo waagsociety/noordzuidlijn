@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noord"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.932222,
+          52.401667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noorderpark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919167,
+          52.389167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centraal Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9,
+          52.378333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rokin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.892778,
+          52.371111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vijzelgracht"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.891111,
+          52.360833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "De Pijp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.890556,
+          52.353611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Europaplein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8925,
+          52.341667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Zuid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.873056,
+          52.338889
+        ]
+      }
+    }
+  ]
+}
