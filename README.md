@@ -56,6 +56,20 @@ OV-bedrijven in Amsterdam:
 - EBS (EBS)
 - NS (IFF:NS)
 
+## Convert GeoJSON to Shapefile
+
+```
+ogr2ogr route route.geojson -f "ESRI Shapefile"`
+ogr2ogr stations stations.geojson -f "ESRI Shapefile"
+```
+
+or run it through http://geojson.io
+
+## Convert Shapefile to GTFS
+
+`java -jar ~/git/geom2gtfs/build/libs/geom2gtfs-all.jar route/OGRGeoJSON.shp nz.geom2gtfs.config.json nz.gtfs.zip`
+
+
 ## OpenTripPlanner
 
 Download the latest OpenTripPlanner jar from:

@@ -1,0 +1,26 @@
+{
+	"agency_name":"NZ",
+	"agency_url":"http://www.gvb.nl",
+	"agency_timezone":"Europe/Amsterdam",
+	"gtfs_mode":3,
+	"speed":[
+		[["*","*"], 10.6],
+	],
+	"route_id_prop_name":"id",
+	"route_name_prop_name":"id",
+	"stops":{
+		"strategy":"shapefile",
+		"filename":"stations/OGRGeoJSON.shp",
+		"threshold":0.0002,
+	},
+	"service_windows":[
+		["all_day",6,24],
+	],
+	"start_date":"20150101",
+	"end_date":"20160101",
+	"use_periods":true,
+	"service_level":5,
+	"wait_factor":2.5,
+	"is_bidirectional":true,
+	"exact":true
+}
