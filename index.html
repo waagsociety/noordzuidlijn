@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Noordzuidlijn</title>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+  	</header>
+    <div id="map"></div>
+    <script>
+      var tileUrl = 'http://otile2.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png',
+          map = L.map('map');
+      L.tileLayer(tileUrl).addTo(map);
+      map.setView([52.3728, 4.8970], 13);
+
+      var geojsonLayer = L.geoJson().addTo(map);
+
+      d3.json('noordzuidlijn/route.geojson', function(route) {
+        geojsonLayer.addData(route);
+      });
+
+      d3.json('noordzuidlijn/stations.geojson', function(stations) {
+        geojsonLayer.addData(stations);
+      });
+
+    </script>
+  </body>
+</html>

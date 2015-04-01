@@ -1,4 +1,8 @@
-http://gtfs.ovapi.nl/new/gtfs-nl.zip
+# Noordzuidlijn
+
+Bereikbaarheid van Amsterdam, met en zonder de Noordzuidlijn.
+
+## GTFS
 
 Bron: http://nl.wikipedia.org/wiki/Noord/Zuidlijn
 Lijn 52
@@ -59,16 +63,15 @@ OV-bedrijven in Amsterdam:
 ## Convert GeoJSON to Shapefile
 
 ```
-ogr2ogr route route.geojson -f "ESRI Shapefile"`
-ogr2ogr stations stations.geojson -f "ESRI Shapefile"
+ogr2ogr route noordzuidlijn/route.geojson -f "ESRI Shapefile"`
+ogr2ogr stations noordzuidlijn/stations.geojson -f "ESRI Shapefile"
 ```
 
 or run it through http://geojson.io
 
 ## Convert Shapefile to GTFS
 
-`java -jar ~/git/geom2gtfs/build/libs/geom2gtfs-all.jar route/OGRGeoJSON.shp nz.geom2gtfs.config.json nz.gtfs.zip`
-
+`java -jar ./geom2gtfs/build/libs/geom2gtfs-all.jar noordzuidlijn/OGRGeoJSON.shp noordzuidlijn/geom2gtfs.config.json noordzuidlijn/noordzuidlijn.gtfs.zip`
 
 ## OpenTripPlanner
 
