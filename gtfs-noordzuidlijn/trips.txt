@@ -1,3 +1,0 @@
-route_id,service_id,trip_id,realtime_trip_id,trip_headsign,trip_short_name,trip_long_name,direction_id,block_id,shape_id,wheelchair_accessible,bikes_allowed
-3338,9999,20000000,GVB:52:1,Station Zuid,,,1,,nzl:south,1,1
-3338,9999,20000001,GVB:52:2,Noord,,,0,,nzl:north,1,1

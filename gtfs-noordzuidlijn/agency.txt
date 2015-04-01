@@ -1,2 +1,0 @@
-agency_id,agency_name,agency_url,agency_timezone,agency_lang
-GVB,Noord/Zuidlijn,http://www.gvb.nl,Europe/Amsterdam,nl

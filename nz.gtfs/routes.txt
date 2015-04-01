@@ -1,0 +1,2 @@
+agency_id,route_id,route_short_name,route_long_name,route_type,route_desc,route_url,route_color,route_text_color,route_bikes_allowed,bikes_allowed
+0,generated_0,generated_0,,3,,,,,,
