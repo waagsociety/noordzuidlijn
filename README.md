@@ -71,7 +71,8 @@ or run it through http://geojson.io
 
 ## Convert Shapefile to GTFS
 
-`java -jar ./geom2gtfs/build/libs/geom2gtfs-all.jar noordzuidlijn/OGRGeoJSON.shp noordzuidlijn/geom2gtfs.config.json noordzuidlijn/noordzuidlijn.gtfs.zip`
+From the root of this repo (assuming you've cloned and built geom2gtfs one level up, and have generated shapefiles):
+`java -jar ../geom2gtfs/build/libs/geom2gtfs-all.jar route/OGRGeoJSON.shp noordzuidlijn/geom2gtfs.config.json noordzuidlijn/noordzuidlijn.gtfs.zip`
 
 ## OpenTripPlanner
 
