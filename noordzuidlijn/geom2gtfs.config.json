@@ -2,7 +2,7 @@
 	"agency_name":"NZ",
 	"agency_url":"http://www.gvb.nl",
 	"agency_timezone":"Europe/Amsterdam",
-	"gtfs_mode":3,
+	"gtfs_mode":1,
 	"speed":[
 		[["*","*"], 10.6],
 	],
@@ -11,7 +11,7 @@
 	"stops":{
 		"strategy":"shapefile",
 		"filename":"stations/OGRGeoJSON.shp",
-		"threshold":0.0002,
+		"threshold":0.0005,
 	},
 	"service_windows":[
 		["all_day",6,24],
